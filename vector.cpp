@@ -11,7 +11,7 @@ public:
         z=_z;
     }
 
-    float getLength(){
+    float length(){
         return sqrt(x*x + y*y + z*z);
     }
 
